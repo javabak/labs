@@ -1,6 +1,6 @@
 package oop.buildings;
 
-import oop.Attacker;
+import oop.interfaces.Attacker;
 import oop.units.Unit;
 
 

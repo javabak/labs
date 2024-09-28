@@ -1,7 +1,7 @@
 package oop.units;
 
-import oop.Attacker;
-import oop.Moveable;
+import oop.interfaces.Attacker;
+import oop.interfaces.Moveable;
 
 
 public class Archer extends Unit implements Moveable, Attacker {

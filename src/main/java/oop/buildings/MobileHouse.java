@@ -1,6 +1,6 @@
 package oop.buildings;
 
-import oop.Moveable;
+import oop.interfaces.Moveable;
 
 public class MobileHouse extends Building implements Moveable {
 
