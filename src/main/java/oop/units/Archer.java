@@ -21,6 +21,6 @@ public class Archer extends Unit implements Moveable, Attacker {
 
     @Override
     public void move(int x, int y) {
-        System.out.println("Unit: " + Unit.class.getName().toString() + " go to: " + x + ", " + y);
+        System.out.println("Unit go to: " + x + ", " + y);
     }
 }
