@@ -2,7 +2,6 @@ package generative_patterns.singleton;
 
 public class Singleton {
 
-
     private static volatile Singleton instance;
 
 

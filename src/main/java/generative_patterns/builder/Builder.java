@@ -11,9 +11,9 @@ public class Builder {
 }
 
 class SportCar {
-    private String name;
-    private String color;
-    private int maxSpeed;
+    private final String name;
+    private final String color;
+    private final int maxSpeed;
 
     public String getName() {
         return name;

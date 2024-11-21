@@ -90,8 +90,6 @@ class TankFactory implements Factory {
 
 
 
-
-
 class AbstractFact {
     public Factory create(String typeOf) {
         switch (typeOf) {

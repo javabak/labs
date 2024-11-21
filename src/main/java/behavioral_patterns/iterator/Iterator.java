@@ -17,13 +17,11 @@ public class Iterator {
     }
 }
 
-// Интерфейс итератора
 interface IteratorInterface<T> {
     boolean hasNext(); // Проверка наличия следующего элемента
     T next();          // Получение следующего элемента
 }
 
-// Интерфейс для коллекции, которая предоставляет итератор
 interface Iterable<T> {
     IteratorInterface<T> createIterator(); // Метод для создания итератора
 }
@@ -31,7 +29,7 @@ interface Iterable<T> {
 
 // Коллекция строк, которая реализует интерфейс Iterable
 class NameCollection implements Iterable<String> {
-    private String[] names;
+    private final String[] names;
 
     public NameCollection(String[] names) {
         this.names = names;
