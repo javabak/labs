@@ -12,7 +12,6 @@ interface ExpensiveObject {
     void process();
 }
 
-
 class ExpensiveObjectImpl implements ExpensiveObject {
 
     public ExpensiveObjectImpl() {
